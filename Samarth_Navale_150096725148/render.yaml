@@ -2,8 +2,8 @@ services:
   - type: web
     name: samarth-assignment-1-hotel-management-api
     env: node
-    buildCommand: cd Samarth_Navale_150096725148 && npm install
-    startCommand: cd Samarth_Navale_150096725148 && npm start
+    buildCommand: npm install
+    startCommand: npm start
     envVars:
       - key: PORT
         value: 3000
